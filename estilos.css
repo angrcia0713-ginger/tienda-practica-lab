@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(135deg, #d54ffe, #10b6cc);
+}
+
+button {
+    margin-top: px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #7c087c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #007bff;
+}
