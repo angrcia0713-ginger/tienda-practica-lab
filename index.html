@@ -1,0 +1,28 @@
+<html lang="es">
+<head>
+</head>
+<body>
+    <h1>Productos disponibles</h1>
+
+    <label for="min">Precio mínimo:</label>
+    <input type="number" id="min" placeholder="0">
+
+    <label for="max">Precio máximo:</label>
+    <input type="number" id="max" placeholder="1000">
+
+    <button id="btnBuscar">Buscar</button>
+
+    <ul id="productos">
+        <li data-precio="150">Mouse Gamer - $150</li>
+        <li data-precio="500">Teclado Mecánico - $500</li>
+        <li data-precio="1200">Monitor 24" - $1200</li>
+        <li data-precio="3000">audifonos de gatito - $3000</li>
+        <li data-precio="80">USB 32GB - $80</li>
+    </ul>
+
+    <h2>Resultados:</h2>
+    <ul id="resultados"></ul>
+
+</body>
+<script src="script.js"></script>
+</html>
